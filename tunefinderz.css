@@ -1,0 +1,249 @@
+/*
+ * Playlist Generator Style
+ * Author: Katherine Jeffrey
+ */
+
+html, body {
+  margin: 0px;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.layout-container {
+  min-height: 100%;
+  position: relative;
+}
+
+header {
+  z-index: 90;
+}
+
+#page-head {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #503050, purple);
+  color: white;
+  margin: 0px;
+  padding: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  z-index: 90;
+}
+
+nav {
+  background-color: lightgray;
+}
+
+nav a {
+  color: #503050;
+}
+
+.icon-bar {
+  background-color: #503050;
+  color: #503050;
+}
+
+#login-desc {
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  padding: 5px;
+  font-size: 1em;
+}
+
+#login-err {
+  color: red;
+  text-align: center;
+}
+
+.err {
+  color: red;
+  text-align: center;
+}
+
+#login-form {
+  margin: auto;
+  width: 50%;
+  padding: 5px;
+}
+
+#login-conf-pwd {
+  display: none;
+}
+
+#reg-btn {
+  display: none;
+}
+
+#create-acct {
+  text-decoration: underline;
+}
+
+#create-acct:hover {
+  color: purple;
+  cursor: pointer;
+}
+
+.btn-default {
+  background: purple;
+  color: white;
+}
+
+.btn-default:hover {
+  color: purple;
+}
+
+footer {
+  background: darkgray;
+  color: white;
+  padding: 5px 10px;
+  height: 2em;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+
+.itemM {}
+.itemC {
+  z-index: 9;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 30% auto;
+}
+
+aside {
+  height: 100%;
+  left: 0;
+  background: grey;
+  z-index: 0;
+}
+
+#playlists {
+  width: 100%;
+  padding-top: 5px;
+  overflow: auto;
+}
+
+#playlists-title {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+}
+
+button.list-group-item {
+  background: grey;
+  color: white;
+}
+
+.badge {
+  background: white;
+  color: grey;
+}
+
+main {
+  padding-bottom: 2em;
+  height: 100%;
+}
+
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  margin-top: 15px;
+  z-index: 5;
+}
+
+.section-title {
+  font-size: 1.8em;
+}
+
+.section-p {
+  font-weight: bold;
+}
+
+.section-input {
+  max-width: 80%;
+}
+
+#edit-section {
+  display: none;
+}
+
+#close-edit {
+  text-align: right;
+  float: right;
+}
+
+#close-edit a {
+  text-decoration: none;
+  color: purple;
+}
+
+#close-edit:hover {
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  color: white;
+  background-color: purple;
+  padding: 2px;
+}
+
+td {
+  padding: 2px;
+}
+
+#show-songs-btn {
+  float: right;
+}
+
+#add-songs-form {
+  display: none;
+}
+
+.add-song-select {
+  display: inline;
+  width: 120px;
+}
+
+@media all and (min-width: 600px) {
+  /*TABLET*/
+}
+
+@media all and (min-width: 1080px) {
+  /*DESKTOP*/
+
+  #login-desc {
+    font-size: 1.5em;
+    width: 40%;
+  }
+  #login-form {
+    width: 30%;
+  }
+  .grid-container {
+    grid-template-columns: 20% auto;
+  }
+  .section {
+    width: 60%;
+  }
+  .section-input {
+    max-width: 50%;
+  }
+}
+
+
+
+
+
+
